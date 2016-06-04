@@ -1,0 +1,72 @@
+/*
+Author: Aaron Burrell
+Date: 6/03/2016
+CSS for NUVI JS code challenge.
+*/
+
+body {
+  padding: 50px;
+  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+}
+
+a {
+  color: #00B7FF;
+}
+
+table, th, td {
+  border: 1px solid #d3d3d3;
+  border-spacing: 0px; 
+
+}
+table{
+	width: 100%;
+
+}
+
+td{
+	 padding: 10px;
+}
+
+tr{
+	 height:100px;
+}
+
+tr:nth-child(even){background-color: #E8E8E8 }
+tr:nth-child(odd){background-color: #F8F8F8 }
+
+textarea{
+	resize: none;
+	width:250px;
+	height: 50px;  
+	float:right;
+	float:top;
+
+	
+}
+
+/*if a post is in the form of an image it will have this class id*/
+.activity_img{
+  width:100px;height:100px; 
+
+}
+
+.thumb_img{
+	width:32px;height:32px;
+}
+
+.thumbs:hover{
+
+	background-color: palegoldenrod;
+	cursor:pointer;
+}
+
+.comment_img{
+
+	width:32px;height:32px;	
+}
+
+.comments:hover{
+
+	background-color: palegoldenrod;
+	cursor:pointer;
+}

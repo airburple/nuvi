@@ -1,0 +1,48 @@
+<!-- Author: Aaron Burrell
+    Date: 6/03/2016 -->
+
+<!DOCTYPE html>
+
+
+
+<html>
+<head>
+    <title>Social Media Activities</title>
+    <link rel='stylesheet' href='style.css' />
+
+</head>
+<body>
+  
+  <!-- body elements are fairly self explanitory, there are two buttons that toggle the table or graphs, 
+        a text area to hold most recent comments, and two tables that hold the social media posts and the graphs.  -->
+
+    <h1>Social Media Activities</h1>
+    <button id = "displayButton" onclick = "graph()" >Display Graph of Activities Involving Your Business</button>
+    <button id = "actionsButton" onclick = "activities()" style="display:none">Back to Actions</button>
+
+    <textarea id= "words">You're most recent comment:</textarea>
+
+    <br><br>
+
+    <Table id="media">
+    </Table>
+    <!--Divs for bar chart and pie chart-->
+    <Table id="charts" style="display:none">
+        <TR><TD><div id="chart_div" ></div></TD>
+            <TD><div id="chart2_div"></div></TD>
+        </TR>
+    </Table>
+
+<script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+<script src="tablescript.js"></script>
+
+
+
+   
+
+
+
+
+
+</body>
+</html>
